@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+.remote_cont{width:320px; margin:20px auto; border-radius:30px; border:6px solid #848183; background: -moz-linear-gradient(0deg, #edede7 0%, #e0e0dc 100%);/* FF3.6+ */
+background: -webkit-gradient(linear, 0deg, color-stop(0%, #edede7), color-stop(100%, #e0e0dc));/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(0deg, #edede7 0%, #e0e0dc 100%);/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(0deg, #edede7 0%, #e0e0dc 100%);/* Opera 11.10+ */
+background: -ms-linear-gradient(0deg, #edede7 0%, #e0e0dc 100%);/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edede7', endColorstr='#e0e0dc', GradientType='1'); /* for IE */
+background: linear-gradient(90deg, #edede7 0%, #e0e0dc 100%);/* W3C */ padding:40px; }
+.rem_but{width:60px; height:60px; cursor:pointer; background: -moz-linear-gradient(0deg, #636363 0%, #878181 100%);/* FF3.6+ */
+background: -webkit-gradient(linear, 0deg, color-stop(0%, #636363), color-stop(100%, #878181));/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(0deg, #636363 0%, #878181 100%);/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(0deg, #636363 0%, #878181 100%);/* Opera 11.10+ */
+background: -ms-linear-gradient(0deg, #636363 0%, #878181 100%);/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#636363', endColorstr='#878181', GradientType='1'); /* for IE */
+background: linear-gradient(90deg, #636363 0%, #878181 100%);/* W3C */ border-radius:30px; vertical-align:middle; /*border:1px solid #e2e2e2;*/ text-align:center; display:inline-block; margin-bottom:15px;}
+.back_red{background: -moz-linear-gradient(0deg, #b63242 0%, #dd4355 100%);/* FF3.6+ */
+background: -webkit-gradient(linear, 0deg, color-stop(0%, #b63242), color-stop(100%, #dd4355));/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(0deg, #b63242 0%, #dd4355 100%);/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(0deg, #b63242 0%, #dd4355 100%);/* Opera 11.10+ */
+background: -ms-linear-gradient(0deg, #b63242 0%, #dd4355 100%);/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b63242', endColorstr='#dd4355', GradientType='1'); /* for IE */
+background: linear-gradient(90deg, #b63242 0%, #dd4355 100%);/* W3C */}
+.rem_but span{padding:17px 0; font-size:24px; color:#fff; display:block;} 
+.number{font-size:30px!important; font-weight:bold; padding:9px 0!important; font-family:"Times New Roman", Times, serif;}
+.vol-cont{ background: -moz-linear-gradient(0deg, #5d6596 0%, #5e6bba 100%);/* FF3.6+ */
+background: -webkit-gradient(linear, 0deg, color-stop(0%, #5d6596), color-stop(100%, #5e6bba));/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(0deg, #5d6596 0%, #5e6bba 100%);/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(0deg, #5d6596 0%, #5e6bba 100%);/* Opera 11.10+ */
+background: -ms-linear-gradient(0deg, #5d6596 0%, #5e6bba 100%);/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5d6596', endColorstr='#5e6bba', GradientType='1'); /* for IE */
+background: linear-gradient(90deg, #5d6596 0%, #5e6bba 100%);/* W3C */  border-radius: 50px; float: left; margin-top: -14px;  padding: 6px;}
+.mar_bot{}
+.txt-vol{text-align:center; color:#fff;}
+.col_blue{color:#5d6596!important;}
+.vol-icon{background: -moz-linear-gradient(0deg, #edede7 0%, #e0e0dc 100%);/* FF3.6+ */
+background: -webkit-gradient(linear, 0deg, color-stop(0%, #edede7), color-stop(100%, #e0e0dc));/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(0deg, #edede7 0%, #e0e0dc 100%);/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(0deg, #edede7 0%, #e0e0dc 100%);/* Opera 11.10+ */
+background: -ms-linear-gradient(0deg, #edede7 0%, #e0e0dc 100%);/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edede7', endColorstr='#e0e0dc', GradientType='1'); /* for IE */
+background: linear-gradient(90deg, #edede7 0%, #e0e0dc 100%);/* W3C */ margin-bottom:0!important;}
+
+
+@media (max-width: 480px) {
+.remote_cont{ padding: 30px 20px;
+    width: 280px;}	
+	
+	}
+	@media (max-width: 340px) {
+.remote_cont{ padding: 30px 20px;
+    width: 260px;}
+.vol-cont{margin-left:-15px;}		
+	
+	}
+	
